@@ -1,33 +1,16 @@
-# Cracked-Launcher
-only for Raspberry Pi 4
-username can be anything you want
-password is raspberry
-This will alow you to play Minecraft in offline mode for free and be able to join servers that have the option cracked enabled
-## To install:
+# Minecraft Java Cracked Launcher
+Cracked version of the old Minecraft launcher for Raspberry Pi.
+This will alow you to play singleplayer Minecraft, and join servers if they are cracked/in offline mode.
+
+## Install
+Firstly, you must have Minecraft Java installed from [pi-apps](https://github.com/Botspot/pi-apps)
+
+Run these commands after install:
 ```
 sudo mv /usr/share/minecraftjava/launcher.jar /usr/share/minecraftjava/oldlauncher.jar
 sudo wget https://github.com/boomerangos/Cracked-Launcher/blob/master/crackedlauncherVer1.1.jar?raw=true -O /usr/share/minecraftjava/launcher.jar
 ```
-## To Launch Minecraft you need to add code to the JVM Section
-## Minecraft Java (armhf) (32bit)
-## Minecraft 1.12 and Older 
-```
--Dorg.lwjgl.librarypath=/home/pi/lwjgl2arm32 
-```
-## Minecraft 1.13 and Newer
-```
--Dorg.lwjgl.librarypath=/home/pi/lwjgl3arm32
-```
-## Minecraft Java (arm64) (64bit)
-## Change Path For Java
-```
-/opt/jdk/jdk1.8.0_251/bin/java
-```
-## Minecraft All Versions
-```
--Dorg.lwjgl.librarypath=/home/pi/lwjgl3arm64
-```
-## Download Optifine 
-```
-https://optifine.net/downloads
-```
+
+Open the MC Java shortcut in the start menu.
+
+The username can be whatever you want, and the password is "raspberry"
